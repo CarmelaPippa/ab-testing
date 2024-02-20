@@ -16,13 +16,15 @@ function App() {
       {variant ? (
         <Test
           textButton={"Start free now"}
-          imageSrc={"../src/assets/images/netflix-library.jpeg"}
+          imageSrc={"/src/assets/images/netflix-library.jpeg"}
+          imageAlt={"Netflix library"}
           variant={"Test A"}
         />
       ) : (
         <Test
           textButton={"Only 30 kr/ month"}
-          imageSrc={"../src/assets/images/irishman.jpeg"}
+          imageSrc={"/src/assets/images/irishman.jpeg"}
+          imageAlt={"The Irishman"}
           variant={"Test B"}
         />
       )}

@@ -6,7 +6,7 @@ export default function Test(props) {
       <div className="main__box">
         <Square textButton={props.textButton} variant={props.variant}></Square>
       </div>
-      <img src={props.imageSrc} alt="netflix-library" />
+      <img src={props.imageSrc} alt={props.imageAlt} />
     </main>
   );
 }
