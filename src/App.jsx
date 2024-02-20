@@ -11,7 +11,7 @@ function App() {
     }
   }, []);
 
-  const textButton = variant ? "Only 30 kr/ month" : "Start free now";
+  const textButton = variant ? "Start free now" : "Only 30 kr/ month";
   const imageSrc = variant
     ? "/src/assets/images/netflix-library.jpeg"
     : "/src/assets/images/irishman.jpeg";
