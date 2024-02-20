@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 export default function Square(props) {
   function handleOnClick() {
     alert(`Clicked: ${props.variant}`);
@@ -18,7 +19,7 @@ export default function Square(props) {
           attract a user to the Netflix platform.
         </p>
         <button onClick={handleOnClick}>{props.textButton}</button>
-        <a onClick={handleOnClickLink}>I'm not interested</a>
+        <a onClick={handleOnClickLink}> I am not interested</a>
       </div>
     </>
   );
