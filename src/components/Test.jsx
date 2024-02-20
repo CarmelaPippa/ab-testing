@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import Square from "./Square";
 
 export default function Test(props) {
